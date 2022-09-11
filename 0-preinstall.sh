@@ -38,5 +38,3 @@ genfstab -U /mnt >> /mnt/etc/fstab
 echo "--------------------------------------"
 echo "--   SYSTEM READY FOR 1-setup       --"
 echo "--------------------------------------"
-
-arch-chroot /mnt /bin/bash
