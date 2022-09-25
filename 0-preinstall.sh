@@ -32,7 +32,7 @@ mount "${DISK}1" /mnt
 echo "--------------------------------------"
 echo "-- Arch Install on Main Drive       --"
 echo "--------------------------------------"
-pacstrap /mnt base base-devel linux linux-firmware vim --noconfirm --needed
+pacstrap /mnt base linux linux-firmware vim --noconfirm --needed
 genfstab -U /mnt >> /mnt/etc/fstab
 
 echo "--------------------------------------"
